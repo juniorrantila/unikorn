@@ -1,0 +1,12 @@
+clang
+-Wall
+-Wextra 
+-Werror
+-Wshorten-64-to-32
+-Wno-elaborated-enum-base
+-target i386-freestanding-none
+-ffreestanding
+-mno-red-zone
+-O2
+-std=c2x
+-fcolor-diagnostics
